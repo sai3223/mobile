@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NHMBRDD7');</script>
+<!-- End Google Tag Manager -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payment - NovaTech Mobiles</title>
+  <style>
+    body{margin:0;font-family:Inter,sans-serif;background:#05070b;color:#f2f6fc;display:flex;justify-content:center;align-items:center;min-height:100vh;}
+    .card{background:#0d1118;padding:30px;border-radius:16px;width:340px;box-shadow:0 8px 28px rgba(0,0,0,.7);}
+    h2{text-align:center;margin-bottom:20px;}
+    input{width:100%;padding:10px;margin:10px 0;border:none;border-radius:10px;}
+    .btn{width:100%;padding:12px;background:linear-gradient(90deg,#00eaff,#9d4dff);color:#060e16;font-weight:600;border-radius:12px;cursor:pointer;transition:.3s;}
+    .btn:hover{box-shadow:0 0 18px rgba(0,234,255,.6);}
+  </style>
+</head>
+<body>
+  <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NHMBRDD7"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+  <div class="card">
+    <h2>💳 Payment</h2>
+    <form onsubmit="event.preventDefault();location.href='thankyou.html';">
+      <input type="text" placeholder="Card Number" required>
+      <input type="text" placeholder="Expiry Date (MM/YY)" required>
+      <input type="password" placeholder="CVV" required>
+      <button type="submit" class="btn">Proceed to Pay</button>
+    </form>
+  </div>
+</body>
+</html>
